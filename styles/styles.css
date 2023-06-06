@@ -1,6 +1,18 @@
+/*
+From style guide:
+    primary color: #03a3df
+    secondary colors: #1b447f, #ecb722, #444444
+
+    typography:
+        h1: Arial bold 40px
+        h2: Arial bold 24px
+        h3: Arial bold 17px
+        body: Arial Regular 17px
+        call-outs & quotes: Arial Regular 30px #03a3df on light background
+
+    see front-end-styleguide.pdf for header/footer layout
+*/
+
 * {
     box-sizing: border-box;
-}
-main img {
-    
 }
