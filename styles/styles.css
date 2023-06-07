@@ -16,3 +16,27 @@ From style guide:
 * {
     box-sizing: border-box;
 }
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+}
+blockquote {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #03a3df;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
