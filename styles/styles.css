@@ -19,40 +19,32 @@ From style guide:
 .grid-container {
     display: grid;
     gap: 15px;
-    grid-template-columns: auto auto auto auto auto;
+    grid-template-columns: repeat(5 auto);
     grid-template-rows: auto auto auto;
     background-color: lightcyan;
-    border: 2px blue dashed;
-    justify-content: space-evenly;
+    grid-auto-rows: 1fr;
+    grid-auto-columns: 2fr 3fr;
 }
 [class^="grid-item"] {
     display: grid;
-    align-items: center;
-    justify-content: center;
     outline: 2px blue dashed;
-    font-family: sans-serif;
+    padding: 10px;
 }
-
 .grid-item-header {
     grid-column: 1 / 6;
     grid-row: 1 / 2;
-    padding: 10px;
 }
 .grid-item-sidebar {
     grid-column: 1 / span 2;
     grid-row: 2 / 3;
-    padding: 10px;
-    text-align:;
 }
 .grid-item-main {
     grid-column: 3 / span 3;
     grid-row: 2 / 3;
-    padding: 10px;
 }
 .grid-item-footer {
     grid-column: 1 / 6;
     grid-row: 3 / 4;
-    padding: 10px;
 }
 
 /* font styles, defined by styleguide */
