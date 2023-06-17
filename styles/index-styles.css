@@ -24,7 +24,6 @@ body {
     font-size: 17px;
 }
 .grid-container {
-    max-width: 1000px;
     height: auto;
     margin: 0 auto;
     display: grid;
@@ -69,16 +68,16 @@ body {
     justify-content: center;
 }
 .logo {
-    flex: 30%;
+    flex: 50%;
+    max-width: 225px;
+    flex-basis: 0;
+    padding: 0 0 0 15px;
     align-items: start;
-}
-.phone {
-    text-align: center;
-    flex: 40%;
 }
 .nav {
     display: flex;
-    flex: 30%;
+    flex-basis: 0;
+    padding: 0 15px 0 0;
     text-align: end;
 }
 .nav-link {
@@ -120,7 +119,6 @@ footer a:hover {
 .nondiscrimination {
     font-style: italic;
 }
-
 /* font styles, defined by styleguide */
 h1 {
     font-family: Arial, Helvetica, sans-serif;
