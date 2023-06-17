@@ -20,8 +20,6 @@ body {
     margin: 0 auto;
     width: 85%;
     max-width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
 }
 .class-container {
     display: grid;
@@ -55,14 +53,12 @@ body {
     grid-column: 1 / 6;
     grid-row: 3 / 4;
 }
-
-header {
+.flex-container {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    justify-items: center;
-    
+    align-items: center;
 }
 /* font styles, defined by styleguide */
 h1 {
@@ -100,15 +96,6 @@ header a:hover {
     text-decoration: none;
     color: #ecb722;
 }
-.blue-logo {
-    order: 1;
-}
-.phone {
-    order: 2;
-}
-.header-nav {
-    order: 3;
-}
 
 /* footer */
 footer li {
@@ -124,10 +111,6 @@ footer a:hover {
     text-decoration: none;
     color: #ecb722;
 }
-img {
-    width: 100%;
-}
-
 video {
     max-width: 100%;
 }
